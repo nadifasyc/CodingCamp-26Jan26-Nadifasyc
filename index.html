@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadifa Space</title>
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+<header class="main-header">
+    <div class="header-container">
+        <div class="header-left">
+            <div class="company-logo-bg"></div>
+            <div class="company-name">Nadifa Space</div>
+        </div>
+        <div class="header-right">
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="navMenu">
+                <a class="nav-link" href="#home-page">Home</a>
+                <a class="nav-link" href="#our-profile-page">Our Profile</a>
+                <a class="nav-link" href="#portfolio-page">Portfolio</a>
+                <a class="nav-link" href="#message-us-page">Message Us</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <hr>
+
+    <main>
+        <!-- Home Page -->
+        <section id="home-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-4xl font-bold mb-4" id="welcome-speech">Welcome to Nadifa Space</h2>
+            <p class="text-lg mt-2">A space where ideas grow, projects are built, and stories begin.</p>
+            <div class="mt-8">
+                <i class="fas fa-arrow-down text-3xl text-blue-500 animate-bounce"></i>
+            </div>
+        </section>
+
+        <hr />
+
+<!-- Our Profile Page -->
+<section id="our-profile-page" class="min-h-[500px]">
+    <div class="profile-container">
+        <!-- Header dengan judul utama -->
+        <header class="profile-header">
+            <h2 class="text-4xl font-bold text-center mb-6">About Nadifa Space</h2>
+            <p class="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+                Nadifa Space is a digital space focused on building creative and functional web experiences. We combine design, technology, and real learning processes to create projects that grow with ideas, curiosity, and purpose.
+            </p>
+        </header>
+
+        <!-- Main content container -->
+        <div class="profile-content">
+            <!-- Company Description -->
+            <div class="company-description">
+                <div class="description-content">
+                    <h3 class="text-2xl font-bold mb-4 text-navy">Who We Are</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Founded as a digital initiative driven by learning and innovation, Nadifa Space was built as a growing creative and technology-focused company. We develop digital solutions through exploration, continuous improvement, and real project experiences.
+                        Our journey started from small ideas, experiments, and projects that evolved into a digital space dedicated to building meaningful, functional, and adaptive web solutions for the future.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Vision & Mission Container -->
+            <div class="vision-mission-container">
+                <!-- Vision Section -->
+                <div class="vision-section">
+                    <div class="section-header">
+                        <div class="section-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3 class="section-title">Our Vision</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>To build a digital space that grows from ideas, care, and curiosity. Creating technology that feels human, meaningful, and impactful.</p>
+                    </div>
+                </div>
+
+                <!-- Mission Section -->
+                <div class="mission-section">
+                    <div class="section-header">
+                        <div class="section-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3 class="section-title">Our Mission</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>Growing together with technology through learning, exploration, and adaption.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="additional-info">
+                <div class="info-item">
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <h4>People</h4>
+                        <p>A small team with big commitment to growth</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <div>
+                        <h4>Projects Completed</h4>
+                        <p>100+ successful projects</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-globe"></i>
+                    <div>
+                        <h4>Reach</h4>
+                        <p>Collaborating with people from different places & backgrounds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Portfolio Page -->
+        <section id="portfolio-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-3xl font-bold mb-6">Our Portfolio</h2>
+            <p class="text-lg mb-8">Explore what we've been building along the way.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="portfolio-card">
+                    <i class="fas fa-shopping-cart text-5xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">E-Commerce Platform</h3>
+                    <p>An online store that's easy to use, easy to manage, and built to grow with payment integration and inventory management.</p>
+                </div>
+                <div class="portfolio-card">
+                    <i class="fas fa-mobile-alt text-5xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Mobile Banking App</h3>
+                    <p>Secure banking application with biometric authentication and real-time transactions.</p>
+                </div>
+                <div class="portfolio-card">
+                    <i class="fas fa-chart-line text-5xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Business Analytics Dashboard</h3>
+                    <p>Interactive dashboard for data visualization and business intelligence.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr />
+
+        <!-- Message Us Page -->
+        <section id="message-us-page" class="min-h-[600px]">
+            <header class="text-center mb-10">
+                <h2 class="text-3xl font-bold">Message Us</h2>
+                <p class="text-lg mt-2 max-w-2xl mx-auto">Have questions or a project in mind? Let's talk! Send us a message and we'll get back to you shortly.</p>
+            </header>
+
+            <div class="message-us-container">
+                <!-- Form Section -->
+                <div class="form-section">
+                    <form id="messageForm">
+                        <div class="mb-6">
+                            <label class="block mb-2 font-semibold" for="name">Name:</label>
+                            <input class="w-full p-3 border rounded-lg" type="text" id="name" name="name" required />
+                            <div class="error-message" id="nameError"></div>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block mb-2 font-semibold" for="email">Email:</label>
+                            <input class="w-full p-3 border rounded-lg" type="email" id="email" name="email" required />
+                            <div class="error-message" id="emailError"></div>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block mb-2 font-semibold" for="message">Message:</label>
+                            <textarea class="w-full p-3 border rounded-lg" id="message" name="message" rows="5" required></textarea>
+                            <div class="error-message" id="messageError"></div>
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button class="btn-primary" type="submit" id="submitBtn">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                            <button class="btn-secondary" type="button" id="clearForm">
+                                <i class="fas fa-eraser"></i>
+                                Clear Form
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Messages Display Section -->
+                <div class="messages-section">
+                    <div class="messages-header">
+                        <h3 class="text-2xl font-bold mb-2">
+                            <i class="fas fa-comments mr-2"></i>
+                            Recent Messages
+                        </h3>
+                        <p class="text-gray-600 mb-6">Messages sent by users will appear here</p>
+                    </div>
+                    
+                    <div class="messages-container" id="messagesContainer">
+                        <div class="empty-state">
+                            <i class="fas fa-inbox text-5xl text-gray-300 mb-4"></i>
+                            <p class="text-gray-500">No messages yet. Be the first to send a message!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="messages-stats">
+                        <div class="stat">
+                            <span class="stat-number" id="totalMessages">0</span>
+                            <span class="stat-label">Total Messages</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="text-center p-6">
+            <p class="text-lg font-bold mb-2">Nadifa Space</p>
+            <p class="mb-4">Innovating Tomorrow, Today</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="mt-6">&copy; 2024 Nadifa Space. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript External -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
